@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtualenv ---
+.venv/
+venv/
+env/
+
+# --- Secrets (API keys MUST come from environment) ---
+.env
+.env.*
+!.env.example
+
+# --- Tooling caches ---
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# --- IDE ---
+.idea/
+.vscode/
+*.swp
+
+# --- Project data (raw may be non-redistributable) ---
+data/raw/
+
+# --- Generated results (keep .gitkeep dirs, ignore generated files) ---
+results/raw/*
+!results/raw/.gitkeep
+results/parsed/*
+!results/parsed/.gitkeep
+results/summaries/*
+!results/summaries/.gitkeep
+
+# --- Internal assistant memory ---
+.workbuddy/
