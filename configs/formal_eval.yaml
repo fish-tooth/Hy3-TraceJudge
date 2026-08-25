@@ -1,0 +1,29 @@
+# Formal evaluation configuration (skeleton — populated at Freeze, Stage 3).
+# Used only AFTER prompt/config/metric/taxonomy freeze. Not used in Phase 0-1.
+
+provider:
+  name: hy3
+  base_url: null
+  model: null
+  api_key_env: HY3_API_KEY
+
+generation:
+  temperature: 0.0
+  reasoning_effort: high
+  max_tokens: 4096
+  timeout_seconds: 120
+  max_retries: 3
+  retry_backoff_base: 2.0
+
+cache:
+  enabled: true
+  dir: results/cache
+
+run:
+  seed: 42
+
+freeze:
+  prompt_versions: {}       # filled at freeze time
+  dataset_manifest: null    # path to frozen manifest
+  taxonomy_version: null
+  metric_version: null

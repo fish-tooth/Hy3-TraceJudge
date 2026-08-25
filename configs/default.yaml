@@ -1,0 +1,30 @@
+# Hy3-TraceJudge default configuration.
+# Secrets (API key) come ONLY from environment variables (HY3_API_KEY).
+# A subset of values may be overridden by environment variables.
+
+provider:
+  name: hy3
+  # Override with HY3_BASE_URL / HY3_MODEL environment variables.
+  base_url: null
+  model: null
+  api_key_env: HY3_API_KEY
+
+generation:
+  temperature: 0.0
+  reasoning_effort: high
+  max_tokens: 4096
+  timeout_seconds: 120
+  max_retries: 3
+  retry_backoff_base: 2.0
+
+cache:
+  enabled: true
+  dir: results/cache
+
+run:
+  seed: 42
+
+paths:
+  data_dir: data
+  results_dir: results
+  prompts_dir: prompts
