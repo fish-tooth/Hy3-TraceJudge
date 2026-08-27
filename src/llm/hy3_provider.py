@@ -68,7 +68,7 @@ class Hy3Provider(BaseLLMProvider):
                 message = resp.choices[0].message
                 content = message.content or ""
                 # Hy3 exposes the hidden chain-of-thought via reasoning_content;
-                # keep it so the trace is preserved in the raw record (TraceJudge).
+                # keep it so the trace is preserved in the raw record (MathXRay).
                 reasoning = getattr(message, "reasoning_content", None) or None
                 usage: dict[str, Any] = {}
                 if getattr(resp, "usage", None) is not None:

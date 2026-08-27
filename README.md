@@ -1,10 +1,10 @@
-# Hy3-TraceJudge
+# MathXRay
 
-> Hybrid Process Verification and Root-Cause Error Localization for Mathematical Reasoning with Hy3
+> Hybrid Process Verification and Root-Cause Error Localization for Mathematical Reasoning
 
 **Can a correct answer still be wrong?**
 
-Hy3-TraceJudge 基于 Hy3 构建数学推理解题与审计应用：它不仅验证最终答案，还判断推理过程是否成立、定位 earliest error、归类错误，并识别"最终答案正确但过程无法支撑结论"的样本。
+MathXRay 基于 Hy3 构建数学推理解题与审计应用：它不仅验证最终答案，还判断推理过程是否成立、定位 earliest error、归类错误，并识别"最终答案正确但过程无法支撑结论"的样本。
 
 ## 项目状态
 

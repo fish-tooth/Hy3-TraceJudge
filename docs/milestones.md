@@ -1,4 +1,4 @@
-# Hy3-TraceJudge Milestones
+# MathXRay Milestones
 
 > **Status:** Award-Ready Execution Plan v2.0  
 > **Time baseline:** 单人约 3 周  
@@ -815,7 +815,7 @@ A1 Structured schema 仅在公平适用的数据上比较。
 ### 10 秒理解
 
 - Hy3 solves；
-- TraceJudge audits；
+- MathXRay audits；
 - external benchmark proves。
 
 ### 主结果

@@ -1,4 +1,4 @@
-# Hy3-TraceJudge default configuration.
+# MathXRay default configuration.
 # Secrets (API key) come ONLY from environment variables (HY3_API_KEY).
 # A subset of values may be overridden by environment variables.
 

@@ -1,4 +1,4 @@
-# Hy3-TraceJudge Evaluation Protocol
+# MathXRay Evaluation Protocol
 
 > **Status:** Award-Ready Evaluation Protocol v2.0  
 > **Purpose:** 定义唯一正式评测口径。任何 benchmark、指标、人工抽检、图表与报告均应遵循本协议。  
@@ -13,7 +13,7 @@
 | ID | Research / Product Question |
 |---|---|
 | **Q1** | Hy3 的最终答案准确率如何？ |
-| **Q2** | Hy3-TraceJudge 能否正确判断一条显式推理过程是否成立？ |
+| **Q2** | MathXRay 能否正确判断一条显式推理过程是否成立？ |
 | **Q3** | 当过程有错时，能否定位 **earliest error**？ |
 | **Q4** | 能否可靠归类错误类型？ |
 | **Q5** | 能否识别 **final-answer-correct but process-invalid**？ |
@@ -42,7 +42,7 @@
 
 禁止：
 
-> Hy3 生成 → Hy3 判定 → 把 Hy3 判定当 gold → 再证明 Hy3-TraceJudge 有效。
+> Hy3 生成 → Hy3 判定 → 把 Hy3 判定当 gold → 再证明 MathXRay 有效。
 
 Gold 优先级：
 
@@ -246,7 +246,7 @@ run_id:
 至少：
 
 - **B0 — Hy3 Direct Judge**
-- **Full — Hy3-TraceJudge**
+- **Full — MathXRay**
 
 推荐消融：
 
@@ -1185,7 +1185,7 @@ Cache key 至少包含：
 
 最终 README/报告的主 claim 应接近：
 
-> Hy3-TraceJudge does not replace Hy3 with another judge. It augments Hy3 semantic reasoning with deterministic symbolic evidence and dependency-aware root-cause analysis. We evaluate the system against an external expert-labelled process benchmark, a controlled adversarial benchmark, and a human audit of correct-answer samples flagged as process-invalid.
+> MathXRay does not replace Hy3 with another judge. It augments Hy3 semantic reasoning with deterministic symbolic evidence and dependency-aware root-cause analysis. We evaluate the system against an external expert-labelled process benchmark, a controlled adversarial benchmark, and a human audit of correct-answer samples flagged as process-invalid.
 
 只有实际实验支持后，才能补：
 

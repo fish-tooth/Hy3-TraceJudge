@@ -1,9 +1,9 @@
-# Hy3-TraceJudge Requirements Specification
+# MathXRay Requirements Specification
 
 > **Status:** Award-Ready Baseline v2.0  
 > **Role:** 本文件是项目范围、官方要求映射与验收标准的唯一权威来源（Single Source of Truth）。  
 > **Companion docs:** `evaluation_protocol.md`、`milestones.md`  
-> **Project:** Hy3-TraceJudge — Hybrid Process Verification and Root-Cause Error Localization for Mathematical Reasoning with Hy3
+> **Project:** MathXRay — Hybrid Process Verification and Root-Cause Error Localization for Mathematical Reasoning
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## 1.1 一句话定位
 
-**Hy3-TraceJudge 是一个基于 Hy3 的数学推理解题与审计应用：它不仅验证最终答案，还通过 Hy3 语义审查、SymPy 确定性验证、依赖感知根因定位与冲突仲裁，判断过程是否成立、定位 earliest error、归类错误，并识别“最终答案正确但过程无法支撑结论”的样本。**
+**MathXRay 是一个基于 Hy3 的数学推理解题与审计应用：它不仅验证最终答案，还通过 Hy3 语义审查、SymPy 确定性验证、依赖感知根因定位与冲突仲裁，判断过程是否成立、定位 earliest error、归类错误，并识别“最终答案正确但过程无法支撑结论”的样本。**
 
 ## 1.2 最终要回答的五个问题
 
@@ -693,7 +693,7 @@ Tier B 若无法程序保证，必须人工/外部 gold 支持。
 推荐最终目录：
 
 ```text
-hy3-tracejudge/
+mathxray/
 ├── app.py
 ├── README.md
 ├── pyproject.toml
@@ -779,7 +779,7 @@ hy3-tracejudge/
 README 首屏 30 秒内能回答：
 
 1. 为什么 final answer accuracy 不够？
-2. Hy3-TraceJudge 是什么？
+2. MathXRay 是什么？
 3. Hy3 在哪里被调用？
 4. 哪个机制带来了改善？
 5. 外部 benchmark 证明了什么？
