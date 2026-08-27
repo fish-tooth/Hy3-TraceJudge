@@ -31,5 +31,5 @@ docs/         # 规范文档
 
 ## Hy3 集成
 
-- API key 仅来自环境变量（`HY3_API_KEY`），绝不硬编码或提交 `.env`。
+- API key 仅来自环境变量（`HY3_API_KEY`）。
 - 配置见 `configs/default.yaml` 与 `.env.example`。
